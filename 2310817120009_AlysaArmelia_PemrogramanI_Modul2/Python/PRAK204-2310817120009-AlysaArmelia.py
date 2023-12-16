@@ -1,0 +1,10 @@
+j, tb = input("").split(" ")
+j = int(j)
+tb = int(tb)
+phi=22/7
+v=phi*(j*j)*tb
+l=2*phi*j*(j+tb)
+k=2*phi*j
+print("Volume = %.2f" %v)
+print("Luas = %.2f" %l)
+print("Keliling = %.2f\n" %k)
