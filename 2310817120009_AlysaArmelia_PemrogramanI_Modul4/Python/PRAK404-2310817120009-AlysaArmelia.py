@@ -1,12 +1,12 @@
 while True:
-    print("Pilihan program")
+    print("Pilih program")
     print("1. Penjumlahan")
     print("2. Pengurangan")
     print("3. Perkalian")
     print("4. Pembagian")
-    print("5. Keluar")
+    print("5. Exit")
 
-    pilihan = int(input("Masukkan pilihan Anda: "))
+    pilihan = int(input("Masukkan Pilihan : "))
 
     if pilihan == 5:
         NAMAANDA = "Alysa Armelia"
@@ -14,11 +14,11 @@ while True:
         break
 
     elif pilihan > 5 or pilihan < 1:
-        print("Pilihan Anda salah, silakan coba lagi. \n")
+        print("Input anda salah, silakan coba lagi. \n")
         continue
 
     bilangan1 = float(input("Masukkan nilai pertama: "))
-    bilangan2 = float(input("Masukkan bilangan kedua: "))
+    bilangan2 = float(input("Masukkan nilai kedua: "))
 
     if pilihan == 1:
         hasil = bilangan1 + bilangan2
