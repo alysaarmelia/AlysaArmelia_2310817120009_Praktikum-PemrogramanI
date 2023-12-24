@@ -7,7 +7,7 @@ hobby = input ("Hobby                     :")
 nohp  = input ("No.Hp                     :")
 
 print("\nNama                      :"+nama)
-print("Nim                       :"+nim)
+print("NIM                       :"+nim)
 print("Kelas Paralel             :"+paralel)
 print("Tempat/Tanggal Lahir      :"+ttl)
 print("Alamat                    :"+alamat)
