@@ -10,10 +10,10 @@ int main()
     for(int l = 1; l <= 50; ++l){
 
         if (l % nilai == 0){
-            printf("%c", bilangan);
+            printf("%c ", bilangan);
 
         } else {
-        printf("%d", l);
+        printf("%d ", l);
         }
     }
 return 0;
