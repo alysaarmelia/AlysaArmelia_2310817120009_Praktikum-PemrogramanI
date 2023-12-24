@@ -16,7 +16,7 @@ int main() {
         printf("4. Pembagian \n");
         printf("5. Exit \n");
 
-        printf("Masukkan Pilihan: ");
+        printf("Masukkan Pilihan : ");
         scanf("%d", & pilihan_program);
     
         if (pilihan_program == 5) {
@@ -24,13 +24,13 @@ int main() {
             break;
 
         }else if(pilihan_program > 5 || pilihan_program < 1) {
-            printf("Input anda salah, silakan coba lagi.\n");
+            printf("Input anda salah, silahkan coba lagi.\n");
             printf("\n");
             continue;
         }
-        printf("Masukkan nilai pertama: ");
+        printf("Masukkan nilai pertama : ");
         scanf("%f", &nilai1);
-        printf("Masukkan nilai kedua: ");
+        printf("Masukkan nilai kedua : ");
         scanf("%f", &nilai2);
 
         if (pilihan_program == 1) {
