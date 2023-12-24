@@ -9,14 +9,14 @@ int main() {
 
     while (1) 
     {
-        printf("Pilihan program \n");
+        printf("Pilih program \n");
         printf("1. Penjumlahan \n");
         printf("2. Pengurangan \n");
         printf("3. Perkalian \n");
         printf("4. Pembagian \n");
-        printf("5. exit \n");
+        printf("5. Exit \n");
 
-        printf("Masukkan pilihan Anda: ");
+        printf("Masukkan Pilihan: ");
         scanf("%d", & pilihan_program);
     
         if (pilihan_program == 5) {
@@ -24,13 +24,13 @@ int main() {
             break;
 
         }else if(pilihan_program > 5 || pilihan_program < 1) {
-            printf("Pilihan Anda salah, silakan coba lagi.\n");
+            printf("Input anda salah, silakan coba lagi.\n");
             printf("\n");
             continue;
         }
         printf("Masukkan nilai pertama: ");
         scanf("%f", &nilai1);
-        printf("Masukkan bilangan kedua: ");
+        printf("Masukkan nilai kedua: ");
         scanf("%f", &nilai2);
 
         if (pilihan_program == 1) {
