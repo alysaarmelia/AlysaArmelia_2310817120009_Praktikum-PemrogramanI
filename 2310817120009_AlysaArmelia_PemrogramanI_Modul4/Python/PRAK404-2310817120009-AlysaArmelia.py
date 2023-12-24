@@ -17,8 +17,8 @@ while True:
         print("Input anda salah, silakan coba lagi. \n")
         continue
 
-    bilangan1 = float(input("Masukkan nilai pertama: "))
-    bilangan2 = float(input("Masukkan nilai kedua: "))
+    bilangan1 = float(input("Masukkan nilai pertama : "))
+    bilangan2 = float(input("Masukkan nilai kedua : "))
 
     if pilihan == 1:
         hasil = bilangan1 + bilangan2
