@@ -15,7 +15,7 @@ if (bilangan >= 1 && bilangan <= 10){
     printf("Nol");
     
     }   else if (bilangan >= 100){
-    printf("Anda mengimput Melebihi Limit Bilangan");
+    printf("Anda Mengimput Melebihi Limit Bilangan");
     
     }   else if (bilangan >= 20 && bilangan <= 99){
     printf("Puluhan");
