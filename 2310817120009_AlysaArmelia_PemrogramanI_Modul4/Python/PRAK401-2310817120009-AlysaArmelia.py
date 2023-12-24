@@ -4,7 +4,7 @@ k = 0
 for k in range(1, 51):
 
     if k % int(nilai) == 0:
-        print(bilangan, end='')
+        print(bilangan, end=' ')
 
     else:
-        print(k, end='')
+        print(k, end=' ')
