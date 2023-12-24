@@ -18,7 +18,7 @@ int main(){
 
         if(p == angka && q == bilangan)
         {
-            printf("%d %d", p, q);
+            printf("%d %d ", p, q);
         }
     }
     while(p > angka && q < bilangan)
@@ -30,7 +30,7 @@ int main(){
 
         if(p == angka && q == bilangan)
         {
-            printf("%d %d", p, q);
+            printf("%d %d ", p, q);
         }
     }
 return 0;
